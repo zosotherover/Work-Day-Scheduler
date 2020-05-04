@@ -7,7 +7,7 @@ It uses the Moment.js library to work with date and time.
 
 https://github.com/zosotherover/Work-Day-Scheduler
 
-https://zosotherover.github.io/Work-Day-Scheduler/.
+https://zosotherover.github.io/Work-Day-Scheduler/
 
 ## Acknowledgments
 
