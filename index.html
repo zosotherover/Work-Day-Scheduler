@@ -26,14 +26,15 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p>Today is:</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="9">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block1"></span>
         </div>
         <input
           type="text"
@@ -44,9 +45,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="10">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block2"></span>
         </div>
         <input
           type="text"
@@ -57,9 +58,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="11">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block3"></span>
         </div>
         <input
           type="text"
@@ -70,9 +71,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="12">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block4"></span>
         </div>
         <input
           type="text"
@@ -83,9 +84,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="1">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block5"></span>
         </div>
         <input
           type="text"
@@ -96,9 +97,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="2">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block6"></span>
         </div>
         <input
           type="text"
@@ -109,9 +110,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="3">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block7"></span>
         </div>
         <input
           type="text"
@@ -122,9 +123,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="4">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block8"></span>
         </div>
         <input
           type="text"
@@ -135,9 +136,9 @@
         <input class="btn saveBtn" type="submit" value="Save" />
       </div>
 
-      <div class="input-group input-group-lg">
+      <div class="input-group input-group-lg" data-hour="5">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg"></span>
+          <span class="input-group-text time-block block9"></span>
         </div>
         <input
           type="text"
@@ -151,5 +152,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
