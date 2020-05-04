@@ -57,3 +57,13 @@ $(".block8").text(time1);
 var time1 = businessHours.add(1, "h");
 time1 = time1.format("hh:mm A");
 $(".block9").text(time1);
+
+// Save button Event listener for saving to local stroage
+
+$(".saveBtn").on("click", function () {
+  event.preventDefault();
+  var formContent = $(this).siblings(".form-control").val();
+  var listItem = $(this).parent().data("hour");
+
+  localStorage.setItem(listItem, formContent);
+});
